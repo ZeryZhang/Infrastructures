@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 namespace Hk.Infrastructures.Caching
 {
     public class CacheRepository
-    {
+    {  
         #region Fields
 
         private const string CacheTagPrefix = "Hk_Cache_Tag_{0}";

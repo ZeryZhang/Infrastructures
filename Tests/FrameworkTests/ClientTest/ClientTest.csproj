@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7363F123-F6DD-4291-9BCE-6E10007E8FA6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientTest</RootNamespace>
+    <AssemblyName>ClientTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Common\Hk.Infrastructures.Common.csproj">
+      <Project>{35fbdc6e-bcfc-467f-adba-f10449d0c37f}</Project>
+      <Name>Hk.Infrastructures.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Config\Hk.Infrastructures.Config.csproj">
+      <Project>{46713013-b18e-47fa-9cdd-5dad62a013a9}</Project>
+      <Name>Hk.Infrastructures.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Core\Hk.Infrastructures.Core.csproj">
+      <Project>{57d56512-79e9-418e-ab03-04790815a21a}</Project>
+      <Name>Hk.Infrastructures.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Data\Hk.Infrastructures.Data.csproj">
+      <Project>{10de07c5-b718-47ac-b7e2-926282d166f2}</Project>
+      <Name>Hk.Infrastructures.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Repositories\Hk.Infrastructures.Repositories.csproj">
+      <Project>{49719be7-5888-4b62-8484-4e2b86f27dc5}</Project>
+      <Name>Hk.Infrastructures.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Sql\Hk.Infrastructures.Sql.csproj">
+      <Project>{6ff4bd0c-6c62-46ab-a043-c84ae171d112}</Project>
+      <Name>Hk.Infrastructures.Sql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Hk.Infrastructures.Validator\Hk.Infrastructures.Validator.csproj">
+      <Project>{27ca6ab7-fe94-42bf-8d09-7c00a6d080da}</Project>
+      <Name>Hk.Infrastructures.Validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.User.DataContract\Hk.User.DataContract.csproj">
+      <Project>{6f7e446d-26fe-48ee-9ce7-90c6cb0528e2}</Project>
+      <Name>Hk.User.DataContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.User.Domain\Hk.User.Domain.csproj">
+      <Project>{5b024cff-6433-408d-b356-f9f397b1f979}</Project>
+      <Name>Hk.User.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.User.IServices\Hk.User.IServices.csproj">
+      <Project>{2f478dbf-1f68-4c42-81d4-d0a8034dbe2b}</Project>
+      <Name>Hk.User.IServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.User.Repositories\Hk.User.Repositories.csproj">
+      <Project>{730dee68-2b95-49a6-8e02-851255c9690a}</Project>
+      <Name>Hk.User.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.User.Services\Hk.User.Services.csproj">
+      <Project>{dbe03f1b-0bba-4237-a974-a529bf329e82}</Project>
+      <Name>Hk.User.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

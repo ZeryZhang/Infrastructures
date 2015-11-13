@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57D56512-79E9-418E-AB03-04790815A21A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hk.Infrastructures.Core</RootNamespace>
+    <AssemblyName>Hk.Infrastructures.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Libs\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Requests\BaseRequest.cs" />
+    <Compile Include="Responses\BaseResponse.cs" />
+    <Compile Include="Responses\PagerQueryResponse.cs" />
+    <Compile Include="ServicePlugins\IServiceApplicationPlugIn.cs" />
+    <Compile Include="ServicePlugins\IServiceStepPlugIn.cs" />
+    <Compile Include="ServicePlugins\PropertyBag.cs" />
+    <Compile Include="Services\BaseService.cs" />
+    <Compile Include="Services\IService.cs" />
+    <Compile Include="Validators\BaseValidator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hk.Infrastructures.Common\Hk.Infrastructures.Common.csproj">
+      <Project>{35fbdc6e-bcfc-467f-adba-f10449d0c37f}</Project>
+      <Name>Hk.Infrastructures.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.Infrastructures.Plugins\Hk.Infrastructures.Plugins.csproj">
+      <Project>{d194b377-372b-48bf-b73e-a02ef102d42e}</Project>
+      <Name>Hk.Infrastructures.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.Infrastructures.Validator\Hk.Infrastructures.Validator.csproj">
+      <Project>{27ca6ab7-fe94-42bf-8d09-7c00a6d080da}</Project>
+      <Name>Hk.Infrastructures.Validator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

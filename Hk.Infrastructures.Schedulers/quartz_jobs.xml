@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <!--数据执行计划 开始-->
+    <!--<job>
+			<name>WorkStationDoctorInfoIndexerSchedulerJob</name>
+			<group>WorkStationDoctorInfoIndexerJobGroup</group>
+			<description>WorkStationDoctorInfoIndexer</description>
+			<job-type>OurDreamFramework.Infrastructures.Schedulers.WorkStationDoctorInfoIndexerScheduler,OurDreamFramework.Infrastructures.Schedulers</job-type>
+			<durable>true</durable>
+			<recover>false</recover>
+		</job>
+		<trigger>
+			<cron>
+				<name>WorkStationDoctorInfoIndexerJobTrigger</name>
+				<group>WorkStationDoctorInfoIndexerJobTriggerGroup</group>
+				<job-name>WorkStationDoctorInfoIndexerSchedulerJob</job-name>
+				<job-group>WorkStationDoctorInfoIndexerJobGroup</job-group>
+				<cron-expression>0 0/50 * * * ?</cron-expression>
+			</cron>
+		</trigger>-->
+    <!--索引计划 结束-->
+  </schedule>
+</job-scheduling-data>

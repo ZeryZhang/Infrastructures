@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hk.Infrastructures.Schedulers</RootNamespace>
+    <AssemblyName>Hk.Infrastructures.Schedulers</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Libs\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\packages\Common.Logging.3.0.0\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>..\packages\Common.Logging.Core.3.0.0\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\packages\Quartz.2.3.2\lib\net40\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseSchedulerJob.cs" />
+    <Compile Include="Configs\Config.cs" />
+    <Compile Include="Configs\ConfigFileManager.cs" />
+    <Compile Include="Configs\ConfigItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchedulerManager.cs" />
+    <Compile Include="SimpleSchedulerJob.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbproviders.properties" />
+    <None Include="packages.config" />
+    <None Include="Quartz.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hk.Infrastructures.Config\Hk.Infrastructures.Config.csproj">
+      <Project>{46713013-b18e-47fa-9cdd-5dad62a013a9}</Project>
+      <Name>Hk.Infrastructures.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hk.Infrastructures.Logging\Hk.Infrastructures.Logging.csproj">
+      <Project>{9928c6c7-aed9-411d-bd0c-1ba0f8467745}</Project>
+      <Name>Hk.Infrastructures.Logging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database\schema_20_to_22_upgrade.sql" />
+    <Content Include="Database\sqlserver_schema_10_to_20_upgrade.sql" />
+    <Content Include="Database\Tables\tables_firebird.sql" />
+    <Content Include="Database\Tables\tables_mysql_innodb.sql" />
+    <Content Include="Database\Tables\tables_oracle.sql" />
+    <Content Include="Database\Tables\tables_postgres.sql" />
+    <Content Include="Database\Tables\tables_sqlite.sql" />
+    <Content Include="Database\Tables\tables_sqlServer.sql" />
+    <Content Include="Database\Tables\tables_sqlServerCe.sql" />
+    <Content Include="quartz_jobs.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

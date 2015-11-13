@@ -1,0 +1,426 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Data", "Hk.Infrastructures.Data\Hk.Infrastructures.Data.csproj", "{10DE07C5-B718-47AC-B7E2-926282D166F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "服务", "服务", "{C5E28742-4497-4D5D-A8BB-580BA34DF98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.ServiceClient", "Hk.Infrastructures.ServiceClient\Hk.Infrastructures.ServiceClient.csproj", "{5451E22D-B01F-4428-A114-46BA77D272B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据", "数据", "{43A7B4A2-D1AE-498E-83BC-9E8E6F16F199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "通用类库", "通用类库", "{D643ADD2-291D-4BDE-AB89-B76211BE6315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Common", "Hk.Infrastructures.Common\Hk.Infrastructures.Common.csproj", "{35FBDC6E-BCFC-467F-ADBA-F10449D0C37F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "日志", "日志", "{20D5D687-8246-4972-9C9A-F431B1F006E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "组件测试", "组件测试", "{9ED99D86-9F61-44FF-B9E5-881C1423197C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Redis", "Hk.Infrastructures.Redis\Hk.Infrastructures.Redis.csproj", "{85951880-A7A7-4272-87FD-0F3E3E5E37EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Core", "Hk.Infrastructures.Core\Hk.Infrastructures.Core.csproj", "{57D56512-79E9-418E-AB03-04790815A21A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "核心", "核心", "{26BFE980-50F1-4332-A5EC-0253B388346A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文件", "文件", "{B4E5F86D-CF0E-4BED-A009-896E9EFAC85A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Fastdfs", "Hk.Infrastructures.Fastdfs\Hk.Infrastructures.Fastdfs.csproj", "{BBD40C01-1764-4F25-993F-D19731986FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Config", "Hk.Infrastructures.Config\Hk.Infrastructures.Config.csproj", "{46713013-B18E-47FA-9CDD-5DAD62A013A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Plugins", "Hk.Infrastructures.Plugins\Hk.Infrastructures.Plugins.csproj", "{D194B377-372B-48BF-B73E-A02EF102D42E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "搜索引擎", "搜索引擎", "{0555C4D8-B2A7-42D7-AE90-10DA48C332F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.ElasticSearch", "Hk.Infrastructures.ElasticSearch\Hk.Infrastructures.ElasticSearch.csproj", "{1D876331-55B2-484E-A05E-A872A3EA5345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "缓存", "缓存", "{07FE9E8A-41FA-4487-8CD5-BD335CE4805F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "消息", "消息", "{88C215F5-ACD1-49D0-B30C-41B655EBCDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.MessageBus", "Hk.Infrastructures.MessageBus\Hk.Infrastructures.MessageBus.csproj", "{E868E383-77D5-471C-8FDA-5B4FAAB507A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Sql", "Hk.Infrastructures.Sql\Hk.Infrastructures.Sql.csproj", "{6FF4BD0C-6C62-46AB-A043-C84AE171D112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Logging", "Hk.Infrastructures.Logging\Hk.Infrastructures.Logging.csproj", "{9928C6C7-AED9-411D-BD0C-1BA0F8467745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "整体测试", "整体测试", "{0668DD64-0D6C-4773-9432-C4C35A84C182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "框架模型测试", "框架模型测试", "{4E7B38E7-564E-49C7-A198-C87BD32A97D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.CommonTests", "Tests\ComponentTests\Hk.Infrastructures.CommonTests\Hk.Infrastructures.CommonTests.csproj", "{BB66F3CB-FC51-49EC-8B63-B22F3DCA4D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.CoreTests", "Tests\ComponentTests\Hk.Infrastructures.CoreTests\Hk.Infrastructures.CoreTests.csproj", "{04824952-EBE1-4FD0-B54C-A97E027D5BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.DataTests", "Tests\ComponentTests\Hk.Infrastructures.DataTests\Hk.Infrastructures.DataTests.csproj", "{AD129AF3-E8A9-48FB-B9BD-88FB1A7B0EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.ElasticSearchTests", "Tests\ComponentTests\Hk.Infrastructures.ElasticSearchTests\Hk.Infrastructures.ElasticSearchTests.csproj", "{06B5CF45-8C6F-450F-8AE1-4FE01C66E743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.FastdfsTests", "Tests\ComponentTests\Hk.Infrastructures.FastdfsTests\Hk.Infrastructures.FastdfsTests.csproj", "{CD23DE0D-0770-4D20-ABD2-F807DADD1BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.RedisTests", "Tests\ComponentTests\Hk.Infrastructures.RedisTests\Hk.Infrastructures.RedisTests.csproj", "{D3EF0B6F-3FA0-4BCC-8CD8-17874F625700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.ServiceClientTests", "Tests\ComponentTests\Hk.Infrastructures.ServiceClientTests\Hk.Infrastructures.ServiceClientTests.csproj", "{8B29212E-7816-4E8D-974D-461C96F23FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Repositories", "Hk.Infrastructures.Repositories\Hk.Infrastructures.Repositories.csproj", "{49719BE7-5888-4B62-8484-4E2B86F27DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.User.Repositories", "Tests\FrameworkTests\Hk.User.Repositories\Hk.User.Repositories.csproj", "{730DEE68-2B95-49A6-8E02-851255C9690A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.User.Services", "Tests\FrameworkTests\Hk.User.Services\Hk.User.Services.csproj", "{DBE03F1B-0BBA-4237-A974-A529BF329E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.User.IServices", "Tests\FrameworkTests\Hk.User.IServices\Hk.User.IServices.csproj", "{2F478DBF-1F68-4C42-81D4-D0A8034DBE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.User.WebApiHost", "Tests\FrameworkTests\Hk.User.WebApiHost\Hk.User.WebApiHost.csproj", "{B1765459-04B6-4C2F-8B35-F1B408A64732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.User.Domain", "Tests\FrameworkTests\Hk.User.Domain\Hk.User.Domain.csproj", "{5B024CFF-6433-408D-B356-F9F397B1F979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.User.DataContract", "Tests\FrameworkTests\Hk.User.DataContract\Hk.User.DataContract.csproj", "{6F7E446D-26FE-48EE-9CE7-90C6CB0528E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "Tests\FrameworkTests\ClientTest\ClientTest.csproj", "{7363F123-F6DD-4291-9BCE-6E10007E8FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Validator", "Hk.Infrastructures.Validator\Hk.Infrastructures.Validator.csproj", "{27CA6AB7-FE94-42BF-8D09-7C00A6D080DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Caching", "Hk.Infrastructures.Caching\Hk.Infrastructures.Caching.csproj", "{58DA748D-5C2E-478F-B965-2E6F5D515706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "调度", "调度", "{7DA27CDD-5BDC-4C5D-8E8B-0DB3909AD340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Schedulers", "Hk.Infrastructures.Schedulers\Hk.Infrastructures.Schedulers.csproj", "{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Localization", "Hk.Infrastructures.Localization\Hk.Infrastructures.Localization.csproj", "{5B56898F-50EC-46AD-8631-12667D133AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Mongo", "Hk.Infrastructures.Mongo\Hk.Infrastructures.Mongo.csproj", "{7ABCD886-D71F-42AD-B675-862C8EDB6DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.MongoTests", "Hk.Infrastructures.MongoTests\Hk.Infrastructures.MongoTests.csproj", "{5166E7CD-32FC-4ADA-A8CF-B9F8320A08E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hk.Infrastructures.Zookeeper", "Hk.Infrastructures.Zookeeper\Hk.Infrastructures.Zookeeper.csproj", "{FC22469E-DAC6-46C7-AF76-AF06EDDECADA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 35
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.0.115:8080/tfs/hk.infrastructures
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Hk.Infrastructures.Core\\Hk.Infrastructures.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = Hk.Infrastructures.sln
+		SccProjectName1 = Hk.Infrastructures.Core
+		SccLocalPath1 = Hk.Infrastructures.Core
+		SccProjectUniqueName2 = Hk.Infrastructures.Data\\Hk.Infrastructures.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = Hk.Infrastructures.sln
+		SccProjectName2 = Hk.Infrastructures.Data
+		SccLocalPath2 = Hk.Infrastructures.Data
+		SccProjectUniqueName3 = Hk.Infrastructures.ElasticSearch\\Hk.Infrastructures.ElasticSearch.csproj
+		SccProjectTopLevelParentUniqueName3 = Hk.Infrastructures.sln
+		SccProjectName3 = Hk.Infrastructures.ElasticSearch
+		SccLocalPath3 = Hk.Infrastructures.ElasticSearch
+		SccProjectUniqueName4 = Hk.Infrastructures.Fastdfs\\Hk.Infrastructures.Fastdfs.csproj
+		SccProjectTopLevelParentUniqueName4 = Hk.Infrastructures.sln
+		SccProjectName4 = Hk.Infrastructures.Fastdfs
+		SccLocalPath4 = Hk.Infrastructures.Fastdfs
+		SccProjectUniqueName5 = Hk.Infrastructures.MessageBus\\Hk.Infrastructures.MessageBus.csproj
+		SccProjectTopLevelParentUniqueName5 = Hk.Infrastructures.sln
+		SccProjectName5 = Hk.Infrastructures.MessageBus
+		SccLocalPath5 = Hk.Infrastructures.MessageBus
+		SccProjectUniqueName6 = Hk.Infrastructures.Plugins\\Hk.Infrastructures.Plugins.csproj
+		SccProjectTopLevelParentUniqueName6 = Hk.Infrastructures.sln
+		SccProjectName6 = Hk.Infrastructures.Plugins
+		SccLocalPath6 = Hk.Infrastructures.Plugins
+		SccProjectUniqueName7 = Hk.Infrastructures.Redis\\Hk.Infrastructures.Redis.csproj
+		SccProjectTopLevelParentUniqueName7 = Hk.Infrastructures.sln
+		SccProjectName7 = Hk.Infrastructures.Redis
+		SccLocalPath7 = Hk.Infrastructures.Redis
+		SccProjectUniqueName8 = Hk.Infrastructures.Repositories\\Hk.Infrastructures.Repositories.csproj
+		SccProjectTopLevelParentUniqueName8 = Hk.Infrastructures.sln
+		SccProjectName8 = Hk.Infrastructures.Repositories
+		SccLocalPath8 = Hk.Infrastructures.Repositories
+		SccProjectUniqueName9 = Hk.Infrastructures.ServiceClient\\Hk.Infrastructures.ServiceClient.csproj
+		SccProjectTopLevelParentUniqueName9 = Hk.Infrastructures.sln
+		SccProjectName9 = Hk.Infrastructures.ServiceClient
+		SccLocalPath9 = Hk.Infrastructures.ServiceClient
+		SccProjectUniqueName10 = Hk.Infrastructures.Sql\\Hk.Infrastructures.Sql.csproj
+		SccProjectTopLevelParentUniqueName10 = Hk.Infrastructures.sln
+		SccProjectName10 = Hk.Infrastructures.Sql
+		SccLocalPath10 = Hk.Infrastructures.Sql
+		SccProjectUniqueName11 = Hk.Infrastructures.Validator\\Hk.Infrastructures.Validator.csproj
+		SccProjectTopLevelParentUniqueName11 = Hk.Infrastructures.sln
+		SccProjectName11 = Hk.Infrastructures.Validator
+		SccLocalPath11 = Hk.Infrastructures.Validator
+		SccProjectUniqueName12 = Tests\\ComponentTests\\Hk.Infrastructures.CommonTests\\Hk.Infrastructures.CommonTests.csproj
+		SccProjectTopLevelParentUniqueName12 = Hk.Infrastructures.sln
+		SccProjectName12 = Tests/ComponentTests/Hk.Infrastructures.CommonTests
+		SccLocalPath12 = Tests\\ComponentTests\\Hk.Infrastructures.CommonTests
+		SccProjectUniqueName13 = Tests\\ComponentTests\\Hk.Infrastructures.CoreTests\\Hk.Infrastructures.CoreTests.csproj
+		SccProjectTopLevelParentUniqueName13 = Hk.Infrastructures.sln
+		SccProjectName13 = Tests/ComponentTests/Hk.Infrastructures.CoreTests
+		SccLocalPath13 = Tests\\ComponentTests\\Hk.Infrastructures.CoreTests
+		SccProjectUniqueName14 = Tests\\ComponentTests\\Hk.Infrastructures.DataTests\\Hk.Infrastructures.DataTests.csproj
+		SccProjectTopLevelParentUniqueName14 = Hk.Infrastructures.sln
+		SccProjectName14 = Tests/ComponentTests/Hk.Infrastructures.DataTests
+		SccLocalPath14 = Tests\\ComponentTests\\Hk.Infrastructures.DataTests
+		SccProjectUniqueName15 = Tests\\ComponentTests\\Hk.Infrastructures.ElasticSearchTests\\Hk.Infrastructures.ElasticSearchTests.csproj
+		SccProjectTopLevelParentUniqueName15 = Hk.Infrastructures.sln
+		SccProjectName15 = Tests/ComponentTests/Hk.Infrastructures.ElasticSearchTests
+		SccLocalPath15 = Tests\\ComponentTests\\Hk.Infrastructures.ElasticSearchTests
+		SccProjectUniqueName16 = Tests\\ComponentTests\\Hk.Infrastructures.FastdfsTests\\Hk.Infrastructures.FastdfsTests.csproj
+		SccProjectTopLevelParentUniqueName16 = Hk.Infrastructures.sln
+		SccProjectName16 = Tests/ComponentTests/Hk.Infrastructures.FastdfsTests
+		SccLocalPath16 = Tests\\ComponentTests\\Hk.Infrastructures.FastdfsTests
+		SccProjectUniqueName17 = Tests\\ComponentTests\\Hk.Infrastructures.RedisTests\\Hk.Infrastructures.RedisTests.csproj
+		SccProjectTopLevelParentUniqueName17 = Hk.Infrastructures.sln
+		SccProjectName17 = Tests/ComponentTests/Hk.Infrastructures.RedisTests
+		SccLocalPath17 = Tests\\ComponentTests\\Hk.Infrastructures.RedisTests
+		SccProjectUniqueName18 = Tests\\ComponentTests\\Hk.Infrastructures.ServiceClientTests\\Hk.Infrastructures.ServiceClientTests.csproj
+		SccProjectTopLevelParentUniqueName18 = Hk.Infrastructures.sln
+		SccProjectName18 = Tests/ComponentTests/Hk.Infrastructures.ServiceClientTests
+		SccLocalPath18 = Tests\\ComponentTests\\Hk.Infrastructures.ServiceClientTests
+		SccProjectUniqueName19 = Tests\\FrameworkTests\\ClientTest\\ClientTest.csproj
+		SccProjectTopLevelParentUniqueName19 = Hk.Infrastructures.sln
+		SccProjectName19 = Tests/FrameworkTests/ClientTest
+		SccLocalPath19 = Tests\\FrameworkTests\\ClientTest
+		SccProjectUniqueName20 = Tests\\FrameworkTests\\Hk.User.DataContract\\Hk.User.DataContract.csproj
+		SccProjectTopLevelParentUniqueName20 = Hk.Infrastructures.sln
+		SccProjectName20 = Tests/FrameworkTests/Hk.User.DataContract
+		SccLocalPath20 = Tests\\FrameworkTests\\Hk.User.DataContract
+		SccProjectUniqueName21 = Tests\\FrameworkTests\\Hk.User.Domain\\Hk.User.Domain.csproj
+		SccProjectTopLevelParentUniqueName21 = Hk.Infrastructures.sln
+		SccProjectName21 = Tests/FrameworkTests/Hk.User.Domain
+		SccLocalPath21 = Tests\\FrameworkTests\\Hk.User.Domain
+		SccProjectUniqueName22 = Tests\\FrameworkTests\\Hk.User.IServices\\Hk.User.IServices.csproj
+		SccProjectTopLevelParentUniqueName22 = Hk.Infrastructures.sln
+		SccProjectName22 = Tests/FrameworkTests/Hk.User.IServices
+		SccLocalPath22 = Tests\\FrameworkTests\\Hk.User.IServices
+		SccProjectUniqueName23 = Tests\\FrameworkTests\\Hk.User.Repositories\\Hk.User.Repositories.csproj
+		SccProjectTopLevelParentUniqueName23 = Hk.Infrastructures.sln
+		SccProjectName23 = Tests/FrameworkTests/Hk.User.Repositories
+		SccLocalPath23 = Tests\\FrameworkTests\\Hk.User.Repositories
+		SccProjectUniqueName24 = Tests\\FrameworkTests\\Hk.User.Services\\Hk.User.Services.csproj
+		SccProjectTopLevelParentUniqueName24 = Hk.Infrastructures.sln
+		SccProjectName24 = Tests/FrameworkTests/Hk.User.Services
+		SccLocalPath24 = Tests\\FrameworkTests\\Hk.User.Services
+		SccProjectUniqueName25 = Tests\\FrameworkTests\\Hk.User.WebApiHost\\Hk.User.WebApiHost.csproj
+		SccProjectTopLevelParentUniqueName25 = Hk.Infrastructures.sln
+		SccProjectName25 = Tests/FrameworkTests/Hk.User.WebApiHost
+		SccLocalPath25 = Tests\\FrameworkTests\\Hk.User.WebApiHost
+		SccProjectUniqueName26 = Hk.Infrastructures.Schedulers\\Hk.Infrastructures.Schedulers.csproj
+		SccProjectTopLevelParentUniqueName26 = Hk.Infrastructures.sln
+		SccProjectName26 = Hk.Infrastructures.Schedulers
+		SccLocalPath26 = Hk.Infrastructures.Schedulers
+		SccProjectUniqueName27 = Hk.Infrastructures.Localization\\Hk.Infrastructures.Localization.csproj
+		SccProjectTopLevelParentUniqueName27 = Hk.Infrastructures.sln
+		SccProjectName27 = Hk.Infrastructures.Localization
+		SccLocalPath27 = Hk.Infrastructures.Localization
+		SccProjectUniqueName28 = Hk.Infrastructures.MongoTests\\Hk.Infrastructures.MongoTests.csproj
+		SccProjectTopLevelParentUniqueName28 = Hk.Infrastructures.sln
+		SccProjectName28 = Hk.Infrastructures.MongoTests
+		SccLocalPath28 = Hk.Infrastructures.MongoTests
+		SccProjectUniqueName29 = Hk.Infrastructures.Zookeeper\\Hk.Infrastructures.Zookeeper.csproj
+		SccProjectTopLevelParentUniqueName29 = Hk.Infrastructures.sln
+		SccProjectName29 = Hk.Infrastructures.Zookeeper
+		SccLocalPath29 = Hk.Infrastructures.Zookeeper
+		SccProjectUniqueName30 = Hk.Infrastructures.Caching\\Hk.Infrastructures.Caching.csproj
+		SccProjectTopLevelParentUniqueName30 = Hk.Infrastructures.sln
+		SccProjectName30 = Hk.Infrastructures.Caching
+		SccLocalPath30 = Hk.Infrastructures.Caching
+		SccProjectUniqueName31 = Hk.Infrastructures.Config\\Hk.Infrastructures.Config.csproj
+		SccProjectTopLevelParentUniqueName31 = Hk.Infrastructures.sln
+		SccProjectName31 = Hk.Infrastructures.Config
+		SccLocalPath31 = Hk.Infrastructures.Config
+		SccProjectUniqueName32 = Hk.Infrastructures.Logging\\Hk.Infrastructures.Logging.csproj
+		SccProjectTopLevelParentUniqueName32 = Hk.Infrastructures.sln
+		SccProjectName32 = Hk.Infrastructures.Logging
+		SccLocalPath32 = Hk.Infrastructures.Logging
+		SccProjectUniqueName33 = Hk.Infrastructures.Mongo\\Hk.Infrastructures.Mongo.csproj
+		SccProjectTopLevelParentUniqueName33 = Hk.Infrastructures.sln
+		SccProjectName33 = Hk.Infrastructures.Mongo
+		SccLocalPath33 = Hk.Infrastructures.Mongo
+		SccProjectUniqueName34 = Hk.Infrastructures.Common\\Hk.Infrastructures.Common.csproj
+		SccProjectTopLevelParentUniqueName34 = Hk.Infrastructures.sln
+		SccProjectName34 = Hk.Infrastructures.Common
+		SccLocalPath34 = Hk.Infrastructures.Common
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10DE07C5-B718-47AC-B7E2-926282D166F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DE07C5-B718-47AC-B7E2-926282D166F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DE07C5-B718-47AC-B7E2-926282D166F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DE07C5-B718-47AC-B7E2-926282D166F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5451E22D-B01F-4428-A114-46BA77D272B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5451E22D-B01F-4428-A114-46BA77D272B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5451E22D-B01F-4428-A114-46BA77D272B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5451E22D-B01F-4428-A114-46BA77D272B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FBDC6E-BCFC-467F-ADBA-F10449D0C37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FBDC6E-BCFC-467F-ADBA-F10449D0C37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FBDC6E-BCFC-467F-ADBA-F10449D0C37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FBDC6E-BCFC-467F-ADBA-F10449D0C37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85951880-A7A7-4272-87FD-0F3E3E5E37EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85951880-A7A7-4272-87FD-0F3E3E5E37EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85951880-A7A7-4272-87FD-0F3E3E5E37EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85951880-A7A7-4272-87FD-0F3E3E5E37EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D56512-79E9-418E-AB03-04790815A21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D56512-79E9-418E-AB03-04790815A21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D56512-79E9-418E-AB03-04790815A21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D56512-79E9-418E-AB03-04790815A21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD40C01-1764-4F25-993F-D19731986FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD40C01-1764-4F25-993F-D19731986FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD40C01-1764-4F25-993F-D19731986FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD40C01-1764-4F25-993F-D19731986FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46713013-B18E-47FA-9CDD-5DAD62A013A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46713013-B18E-47FA-9CDD-5DAD62A013A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46713013-B18E-47FA-9CDD-5DAD62A013A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46713013-B18E-47FA-9CDD-5DAD62A013A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D194B377-372B-48BF-B73E-A02EF102D42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D194B377-372B-48BF-B73E-A02EF102D42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D194B377-372B-48BF-B73E-A02EF102D42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D194B377-372B-48BF-B73E-A02EF102D42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D876331-55B2-484E-A05E-A872A3EA5345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D876331-55B2-484E-A05E-A872A3EA5345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D876331-55B2-484E-A05E-A872A3EA5345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D876331-55B2-484E-A05E-A872A3EA5345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E868E383-77D5-471C-8FDA-5B4FAAB507A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E868E383-77D5-471C-8FDA-5B4FAAB507A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E868E383-77D5-471C-8FDA-5B4FAAB507A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E868E383-77D5-471C-8FDA-5B4FAAB507A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF4BD0C-6C62-46AB-A043-C84AE171D112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF4BD0C-6C62-46AB-A043-C84AE171D112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF4BD0C-6C62-46AB-A043-C84AE171D112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF4BD0C-6C62-46AB-A043-C84AE171D112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9928C6C7-AED9-411D-BD0C-1BA0F8467745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9928C6C7-AED9-411D-BD0C-1BA0F8467745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9928C6C7-AED9-411D-BD0C-1BA0F8467745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9928C6C7-AED9-411D-BD0C-1BA0F8467745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB66F3CB-FC51-49EC-8B63-B22F3DCA4D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB66F3CB-FC51-49EC-8B63-B22F3DCA4D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB66F3CB-FC51-49EC-8B63-B22F3DCA4D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB66F3CB-FC51-49EC-8B63-B22F3DCA4D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04824952-EBE1-4FD0-B54C-A97E027D5BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04824952-EBE1-4FD0-B54C-A97E027D5BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04824952-EBE1-4FD0-B54C-A97E027D5BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04824952-EBE1-4FD0-B54C-A97E027D5BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD129AF3-E8A9-48FB-B9BD-88FB1A7B0EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD129AF3-E8A9-48FB-B9BD-88FB1A7B0EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD129AF3-E8A9-48FB-B9BD-88FB1A7B0EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD129AF3-E8A9-48FB-B9BD-88FB1A7B0EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B5CF45-8C6F-450F-8AE1-4FE01C66E743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B5CF45-8C6F-450F-8AE1-4FE01C66E743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B5CF45-8C6F-450F-8AE1-4FE01C66E743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B5CF45-8C6F-450F-8AE1-4FE01C66E743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD23DE0D-0770-4D20-ABD2-F807DADD1BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD23DE0D-0770-4D20-ABD2-F807DADD1BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD23DE0D-0770-4D20-ABD2-F807DADD1BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD23DE0D-0770-4D20-ABD2-F807DADD1BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EF0B6F-3FA0-4BCC-8CD8-17874F625700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EF0B6F-3FA0-4BCC-8CD8-17874F625700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EF0B6F-3FA0-4BCC-8CD8-17874F625700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EF0B6F-3FA0-4BCC-8CD8-17874F625700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B29212E-7816-4E8D-974D-461C96F23FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B29212E-7816-4E8D-974D-461C96F23FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B29212E-7816-4E8D-974D-461C96F23FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B29212E-7816-4E8D-974D-461C96F23FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49719BE7-5888-4B62-8484-4E2B86F27DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49719BE7-5888-4B62-8484-4E2B86F27DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49719BE7-5888-4B62-8484-4E2B86F27DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49719BE7-5888-4B62-8484-4E2B86F27DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730DEE68-2B95-49A6-8E02-851255C9690A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730DEE68-2B95-49A6-8E02-851255C9690A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730DEE68-2B95-49A6-8E02-851255C9690A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730DEE68-2B95-49A6-8E02-851255C9690A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE03F1B-0BBA-4237-A974-A529BF329E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE03F1B-0BBA-4237-A974-A529BF329E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE03F1B-0BBA-4237-A974-A529BF329E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE03F1B-0BBA-4237-A974-A529BF329E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F478DBF-1F68-4C42-81D4-D0A8034DBE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F478DBF-1F68-4C42-81D4-D0A8034DBE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F478DBF-1F68-4C42-81D4-D0A8034DBE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F478DBF-1F68-4C42-81D4-D0A8034DBE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1765459-04B6-4C2F-8B35-F1B408A64732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1765459-04B6-4C2F-8B35-F1B408A64732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1765459-04B6-4C2F-8B35-F1B408A64732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1765459-04B6-4C2F-8B35-F1B408A64732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B024CFF-6433-408D-B356-F9F397B1F979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B024CFF-6433-408D-B356-F9F397B1F979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B024CFF-6433-408D-B356-F9F397B1F979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B024CFF-6433-408D-B356-F9F397B1F979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7E446D-26FE-48EE-9CE7-90C6CB0528E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7E446D-26FE-48EE-9CE7-90C6CB0528E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7E446D-26FE-48EE-9CE7-90C6CB0528E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7E446D-26FE-48EE-9CE7-90C6CB0528E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7363F123-F6DD-4291-9BCE-6E10007E8FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7363F123-F6DD-4291-9BCE-6E10007E8FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7363F123-F6DD-4291-9BCE-6E10007E8FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7363F123-F6DD-4291-9BCE-6E10007E8FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CA6AB7-FE94-42BF-8D09-7C00A6D080DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CA6AB7-FE94-42BF-8D09-7C00A6D080DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CA6AB7-FE94-42BF-8D09-7C00A6D080DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CA6AB7-FE94-42BF-8D09-7C00A6D080DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DA748D-5C2E-478F-B965-2E6F5D515706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DA748D-5C2E-478F-B965-2E6F5D515706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DA748D-5C2E-478F-B965-2E6F5D515706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DA748D-5C2E-478F-B965-2E6F5D515706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B56898F-50EC-46AD-8631-12667D133AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B56898F-50EC-46AD-8631-12667D133AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B56898F-50EC-46AD-8631-12667D133AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B56898F-50EC-46AD-8631-12667D133AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABCD886-D71F-42AD-B675-862C8EDB6DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABCD886-D71F-42AD-B675-862C8EDB6DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABCD886-D71F-42AD-B675-862C8EDB6DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABCD886-D71F-42AD-B675-862C8EDB6DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5166E7CD-32FC-4ADA-A8CF-B9F8320A08E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5166E7CD-32FC-4ADA-A8CF-B9F8320A08E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5166E7CD-32FC-4ADA-A8CF-B9F8320A08E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5166E7CD-32FC-4ADA-A8CF-B9F8320A08E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC22469E-DAC6-46C7-AF76-AF06EDDECADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC22469E-DAC6-46C7-AF76-AF06EDDECADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC22469E-DAC6-46C7-AF76-AF06EDDECADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC22469E-DAC6-46C7-AF76-AF06EDDECADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10DE07C5-B718-47AC-B7E2-926282D166F2} = {43A7B4A2-D1AE-498E-83BC-9E8E6F16F199}
+		{5451E22D-B01F-4428-A114-46BA77D272B9} = {C5E28742-4497-4D5D-A8BB-580BA34DF98E}
+		{35FBDC6E-BCFC-467F-ADBA-F10449D0C37F} = {D643ADD2-291D-4BDE-AB89-B76211BE6315}
+		{9ED99D86-9F61-44FF-B9E5-881C1423197C} = {0668DD64-0D6C-4773-9432-C4C35A84C182}
+		{85951880-A7A7-4272-87FD-0F3E3E5E37EE} = {07FE9E8A-41FA-4487-8CD5-BD335CE4805F}
+		{57D56512-79E9-418E-AB03-04790815A21A} = {26BFE980-50F1-4332-A5EC-0253B388346A}
+		{BBD40C01-1764-4F25-993F-D19731986FF9} = {B4E5F86D-CF0E-4BED-A009-896E9EFAC85A}
+		{46713013-B18E-47FA-9CDD-5DAD62A013A9} = {D643ADD2-291D-4BDE-AB89-B76211BE6315}
+		{D194B377-372B-48BF-B73E-A02EF102D42E} = {D643ADD2-291D-4BDE-AB89-B76211BE6315}
+		{1D876331-55B2-484E-A05E-A872A3EA5345} = {0555C4D8-B2A7-42D7-AE90-10DA48C332F0}
+		{E868E383-77D5-471C-8FDA-5B4FAAB507A0} = {88C215F5-ACD1-49D0-B30C-41B655EBCDCE}
+		{6FF4BD0C-6C62-46AB-A043-C84AE171D112} = {43A7B4A2-D1AE-498E-83BC-9E8E6F16F199}
+		{9928C6C7-AED9-411D-BD0C-1BA0F8467745} = {20D5D687-8246-4972-9C9A-F431B1F006E6}
+		{4E7B38E7-564E-49C7-A198-C87BD32A97D4} = {0668DD64-0D6C-4773-9432-C4C35A84C182}
+		{BB66F3CB-FC51-49EC-8B63-B22F3DCA4D73} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{04824952-EBE1-4FD0-B54C-A97E027D5BED} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{AD129AF3-E8A9-48FB-B9BD-88FB1A7B0EA7} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{06B5CF45-8C6F-450F-8AE1-4FE01C66E743} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{CD23DE0D-0770-4D20-ABD2-F807DADD1BB4} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{D3EF0B6F-3FA0-4BCC-8CD8-17874F625700} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{8B29212E-7816-4E8D-974D-461C96F23FFC} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{49719BE7-5888-4B62-8484-4E2B86F27DC5} = {43A7B4A2-D1AE-498E-83BC-9E8E6F16F199}
+		{730DEE68-2B95-49A6-8E02-851255C9690A} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{DBE03F1B-0BBA-4237-A974-A529BF329E82} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{2F478DBF-1F68-4C42-81D4-D0A8034DBE2B} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{B1765459-04B6-4C2F-8B35-F1B408A64732} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{5B024CFF-6433-408D-B356-F9F397B1F979} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{6F7E446D-26FE-48EE-9CE7-90C6CB0528E2} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{7363F123-F6DD-4291-9BCE-6E10007E8FA6} = {4E7B38E7-564E-49C7-A198-C87BD32A97D4}
+		{27CA6AB7-FE94-42BF-8D09-7C00A6D080DA} = {D643ADD2-291D-4BDE-AB89-B76211BE6315}
+		{58DA748D-5C2E-478F-B965-2E6F5D515706} = {07FE9E8A-41FA-4487-8CD5-BD335CE4805F}
+		{16CAA714-AEB1-4F9C-825C-D3CF7FD4A745} = {7DA27CDD-5BDC-4C5D-8E8B-0DB3909AD340}
+		{5B56898F-50EC-46AD-8631-12667D133AE0} = {D643ADD2-291D-4BDE-AB89-B76211BE6315}
+		{7ABCD886-D71F-42AD-B675-862C8EDB6DC1} = {43A7B4A2-D1AE-498E-83BC-9E8E6F16F199}
+		{5166E7CD-32FC-4ADA-A8CF-B9F8320A08E3} = {9ED99D86-9F61-44FF-B9E5-881C1423197C}
+		{FC22469E-DAC6-46C7-AF76-AF06EDDECADA} = {D643ADD2-291D-4BDE-AB89-B76211BE6315}
+	EndGlobalSection
+EndGlobal
